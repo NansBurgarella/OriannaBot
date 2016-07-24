@@ -46,7 +46,7 @@ async def on_ready():
     print('Logged in as:\n{0} (ID: {0.id})'.format(bot.user))
 
 if Beta:
-	bot.run('MjA2OTAyNzU4NjE4NDMxNDg4.CnbUtQ.3VFStiuPDBY0Pk22vpUJ9-Ovkv8')
+	bot.run('token')
 else:
-	bot.run('MjA2OTAzMzE1NTY3NjA3ODA4.CnbVOg.BVpugzhNyGDJfhBodJN96HvkvTU')
+	bot.run('token')
 >>>>>>> origin/master
